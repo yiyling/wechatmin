@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class="card">
+  <text class="name">{{data.name}}</text>
+  <text class="work">{{data.work}}</text>
+  <text class="tel">{{data.tel}}</text>
+  <text class="job">{{data.job}}</text>
+  <text class="add">{{data.add}}</text>
+  <text class="email">{{data.email}}</text>
+  <text class="weibo">{{data.weibo}}</text>
+  <view class="userinfo-avatar">
+    <open-data type="userAvatarUrl"></open-data>
+  </view>
+</view>
+<view class="btn">
+  <button type="primary" bindtap="showEditPage">编辑名片</button> 
+</view>

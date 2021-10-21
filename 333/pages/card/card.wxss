@@ -1,0 +1,29 @@
+/* pages/card/card.wxss */
+page {
+    background-color: #efefef;
+}
+.item {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    height: 40px;
+    line-height: 40px;
+}
+.item label {
+    padding-left: 10px;
+}
+.item input {
+    flex: 1;
+    padding: 0 10px;
+    margin-top: 9px;
+}
+.last-item {
+    margin-bottom: 20px;
+}
+.btn {
+    margin: 0 10px;
+}
+.btn button {
+    width: 100%!important;
+    background-color: skyblue!important;
+}

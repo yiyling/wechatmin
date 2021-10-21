@@ -1,0 +1,20 @@
+<view class="choose-city">
+  <text class="choose-city-title">当前城市: </text>
+  <text class="choose-city-text">{{chooseCity}}</text>
+</view>
+<scroll-view scroll-y style="height:{{height}}px" scroll-into-view="{{letter}}">
+  <view class="history-city">
+    <text class="city-title">常用城市</text>
+    <text class="city-item" bindtap="changeCity" id="{{item}}" wx:for="{{historyCity}}" wx:key="this">{{item}}</text>
+ 
+  </view>
+  <!-- 城市列表 -->
+  <view class="city-container" wx:for="{{list}}" wx:key="this" id="{{item.letter}}">
+    <view class="city-title">{{item.letter}}</view>
+    <view class="city-item" bindtap="changeCity" wx:for="{{item.data}}" wx:key="this" wx:for-item="childItem" id="{{childItem.name}}">{{childItem.name}}</view>
+  </view>
+</scroll-view>
+<!-- 字母列 -->
+<view class="letter-list" catchtouchend="moveLetter">
+  <view class="letter-item" data-letter="{{item.letter}}" bindtap="toggleLetter" style="height: {{letterHeight}}px;line-height: {{letterHeight}}px;" wx:for="{{list}}" wx:key="this">{{item.letter}}</view>
+</view>

@@ -1,0 +1,58 @@
+page {
+  background-color: #efefef;
+}
+.choose-city {
+  height: 50px;
+  line-height: 50px;
+  padding: 0 20rpx;
+  font-size: 32rpx;
+}
+.history-city {
+  background-color: #fff;
+  padding: 30rpx 20rpx;
+}
+.history-city .city-title {
+  font-size: 28rpx;
+  color: #666;
+  padding-bottom: 20rpx;
+  display: block;
+}
+.history-city .city-item {
+  border:2rpx solid #ccc;
+  border-radius: 6rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  width: 200rpx;
+  margin-right: 25rpx;
+  display: inline-block;
+  text-align: center;
+}
+.city-container .city-title {
+  height: 100rpx;
+  line-height: 100rpx;
+  padding: 0 20rpx;
+  font-size: 40rpx;
+}
+.city-container .city-item {
+  padding: 0 20rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 32rpx;
+  background-color: #fff;
+  border-bottom: 2rpx solid #ccc;
+}
+.letter-list {
+  position: fixed;
+  right: 0;
+  left: auto;
+  top: 50px;
+  bottom: 0;
+  background-color: #fff;
+  width: 60rpx;
+  text-align: center;
+}
+.letter-list .letter-item {
+  font-size: 28rpx;
+  
+
+}

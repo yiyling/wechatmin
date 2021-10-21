@@ -1,0 +1,71 @@
+/**index.wxss**/
+page {
+  background-color: #efefef;
+}
+.card {
+  background-color: #fff;
+  margin: 10px;
+  position: relative;
+  min-height: 24px;
+  padding: 10px;
+  border-radius: 2px;
+}
+.card text {
+  color: rgb(124, 124, 131);
+  font-size: 14px;
+  line-height: 28px;
+  vertical-align: middle;
+}
+
+.card .tel,.card .job,.card .add,.card .email,.card .weibo {
+  display: block;
+}
+.card .name {
+  font-size: 18px;
+  margin-right: 5px;
+  color: black;
+}
+.card .tel {
+  margin-top: 15px;
+  color: blue;
+  line-height: 15px;
+}
+.card .job {
+  margin-top: 5px;
+  color: black;
+}
+
+.btn {
+  margin: 30px 10px ;
+}
+.btn button {
+  width: 100%!important;
+  background-color: skyblue!important;
+}
+.userinfo-avatar {
+  position: absolute;
+  right:20px;
+  top:20px;
+  overflow: hidden;
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+} 
+/* .userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #aaa;
+}
+.userinfo-avatar {
+  overflow: hidden;
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+} 
+
+.usermotto {
+  margin-top: 200px;
+} */
